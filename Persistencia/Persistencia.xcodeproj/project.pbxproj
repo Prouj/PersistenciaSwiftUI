@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A456141F2A0C51C800AFC6D6 /* PersistenciaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A456141E2A0C51C800AFC6D6 /* PersistenciaApp.swift */; };
+		A45614212A0C51C800AFC6D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45614202A0C51C800AFC6D6 /* Persistence.swift */; };
+		A45614242A0C51C800AFC6D6 /* Persistencia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A45614222A0C51C800AFC6D6 /* Persistencia.xcdatamodeld */; };
+		A45614282A0C51CA00AFC6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45614272A0C51CA00AFC6D6 /* Assets.xcassets */; };
+		A456142C2A0C51CA00AFC6D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A456142B2A0C51CA00AFC6D6 /* Preview Assets.xcassets */; };
+		A47175F02A0DAFF70073A4DD /* HideKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175EF2A0DAFF70073A4DD /* HideKeyBoard.swift */; };
+		A47175F32A0DB0580073A4DD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175F22A0DB0580073A4DD /* SearchBar.swift */; };
+		A47175F62A0DB0870073A4DD /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175F52A0DB0870073A4DD /* GroupListView.swift */; };
+		A47175F82A0DB0B60073A4DD /* ContactsInGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175F72A0DB0B60073A4DD /* ContactsInGroupView.swift */; };
+		A47175FA2A0DB0D00073A4DD /* NewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175F92A0DB0D00073A4DD /* NewGroupView.swift */; };
+		A47175FC2A0DB0EC0073A4DD /* EditGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175FB2A0DB0EC0073A4DD /* EditGroupView.swift */; };
+		A47175FF2A0DB2F30073A4DD /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47175FE2A0DB2F30073A4DD /* ContactInfoView.swift */; };
+		A47176012A0DB38E0073A4DD /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176002A0DB38E0073A4DD /* ContactListView.swift */; };
+		A47176032A0DB4060073A4DD /* NewContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176022A0DB4060073A4DD /* NewContactView.swift */; };
+		A47176052A0DB4250073A4DD /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176042A0DB4250073A4DD /* EditContactView.swift */; };
+		A47176072A0DB5120073A4DD /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176062A0DB5120073A4DD /* ContactViewModel.swift */; };
+		A47176092A0DB5330073A4DD /* GroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176082A0DB5330073A4DD /* GroupViewModel.swift */; };
+		A47176262A16D6DA0073A4DD /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176222A16D6DA0073A4DD /* Contact+CoreDataClass.swift */; };
+		A47176272A16D6DA0073A4DD /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176232A16D6DA0073A4DD /* Contact+CoreDataProperties.swift */; };
+		A47176282A16D6DA0073A4DD /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176242A16D6DA0073A4DD /* Group+CoreDataClass.swift */; };
+		A47176292A16D6DA0073A4DD /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176252A16D6DA0073A4DD /* Group+CoreDataProperties.swift */; };
+		A47176462A28130E0073A4DD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176452A28130E0073A4DD /* ListView.swift */; };
+		A47176482A28153D0073A4DD /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47176472A28153D0073A4DD /* InputField.swift */; };
+		A471764D2A299E830073A4DD /* ShowContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471764C2A299E830073A4DD /* ShowContactInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A456141B2A0C51C800AFC6D6 /* Persistencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A456141E2A0C51C800AFC6D6 /* PersistenciaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenciaApp.swift; sourceTree = "<group>"; };
+		A45614202A0C51C800AFC6D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A45614232A0C51C800AFC6D6 /* Persistencia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Persistencia.xcdatamodel; sourceTree = "<group>"; };
+		A45614272A0C51CA00AFC6D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45614292A0C51CA00AFC6D6 /* Persistencia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Persistencia.entitlements; sourceTree = "<group>"; };
+		A456142B2A0C51CA00AFC6D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A47175EF2A0DAFF70073A4DD /* HideKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoard.swift; sourceTree = "<group>"; };
+		A47175F22A0DB0580073A4DD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A47175F52A0DB0870073A4DD /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+		A47175F72A0DB0B60073A4DD /* ContactsInGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInGroupView.swift; sourceTree = "<group>"; };
+		A47175F92A0DB0D00073A4DD /* NewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupView.swift; sourceTree = "<group>"; };
+		A47175FB2A0DB0EC0073A4DD /* EditGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupView.swift; sourceTree = "<group>"; };
+		A47175FE2A0DB2F30073A4DD /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		A47176002A0DB38E0073A4DD /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		A47176022A0DB4060073A4DD /* NewContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactView.swift; sourceTree = "<group>"; };
+		A47176042A0DB4250073A4DD /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
+		A47176062A0DB5120073A4DD /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		A47176082A0DB5330073A4DD /* GroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewModel.swift; sourceTree = "<group>"; };
+		A47176222A16D6DA0073A4DD /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A47176232A16D6DA0073A4DD /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A47176242A16D6DA0073A4DD /* Group+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A47176252A16D6DA0073A4DD /* Group+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A47176452A28130E0073A4DD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A47176472A28153D0073A4DD /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		A471764C2A299E830073A4DD /* ShowContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45614182A0C51C800AFC6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45614122A0C51C800AFC6D6 = {
+			isa = PBXGroup;
+			children = (
+				A456141D2A0C51C800AFC6D6 /* Persistencia */,
+				A456141C2A0C51C800AFC6D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A456141C2A0C51C800AFC6D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A456141B2A0C51C800AFC6D6 /* Persistencia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A456141D2A0C51C800AFC6D6 /* Persistencia */ = {
+			isa = PBXGroup;
+			children = (
+				A47175EE2A0DAFDE0073A4DD /* Extensions */,
+				A47175ED2A0DAFC80073A4DD /* View */,
+				A47175EC2A0DAFC00073A4DD /* ViewModel */,
+				A47175EB2A0DAFB10073A4DD /* Model */,
+				A456141E2A0C51C800AFC6D6 /* PersistenciaApp.swift */,
+				A45614272A0C51CA00AFC6D6 /* Assets.xcassets */,
+				A45614292A0C51CA00AFC6D6 /* Persistencia.entitlements */,
+				A45614222A0C51C800AFC6D6 /* Persistencia.xcdatamodeld */,
+				A456142A2A0C51CA00AFC6D6 /* Preview Content */,
+			);
+			path = Persistencia;
+			sourceTree = "<group>";
+		};
+		A456142A2A0C51CA00AFC6D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A456142B2A0C51CA00AFC6D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A47175EB2A0DAFB10073A4DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A47176222A16D6DA0073A4DD /* Contact+CoreDataClass.swift */,
+				A47176232A16D6DA0073A4DD /* Contact+CoreDataProperties.swift */,
+				A47176242A16D6DA0073A4DD /* Group+CoreDataClass.swift */,
+				A47176252A16D6DA0073A4DD /* Group+CoreDataProperties.swift */,
+				A45614202A0C51C800AFC6D6 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A47175EC2A0DAFC00073A4DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A47176062A0DB5120073A4DD /* ContactViewModel.swift */,
+				A47176082A0DB5330073A4DD /* GroupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A47175ED2A0DAFC80073A4DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A47175FD2A0DB2E10073A4DD /* Contact */,
+				A47175F42A0DB06E0073A4DD /* Group */,
+				A47175F12A0DB0470073A4DD /* Components */,
+				A47176452A28130E0073A4DD /* ListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A47175EE2A0DAFDE0073A4DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A47175EF2A0DAFF70073A4DD /* HideKeyBoard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A47175F12A0DB0470073A4DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A47175F22A0DB0580073A4DD /* SearchBar.swift */,
+				A47176472A28153D0073A4DD /* InputField.swift */,
+				A471764C2A299E830073A4DD /* ShowContactInfo.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A47175F42A0DB06E0073A4DD /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				A47175F52A0DB0870073A4DD /* GroupListView.swift */,
+				A47175F72A0DB0B60073A4DD /* ContactsInGroupView.swift */,
+				A47175F92A0DB0D00073A4DD /* NewGroupView.swift */,
+				A47175FB2A0DB0EC0073A4DD /* EditGroupView.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		A47175FD2A0DB2E10073A4DD /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				A47175FE2A0DB2F30073A4DD /* ContactInfoView.swift */,
+				A47176002A0DB38E0073A4DD /* ContactListView.swift */,
+				A47176022A0DB4060073A4DD /* NewContactView.swift */,
+				A47176042A0DB4250073A4DD /* EditContactView.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A456141A2A0C51C800AFC6D6 /* Persistencia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A456142F2A0C51CA00AFC6D6 /* Build configuration list for PBXNativeTarget "Persistencia" */;
+			buildPhases = (
+				A45614172A0C51C800AFC6D6 /* Sources */,
+				A45614182A0C51C800AFC6D6 /* Frameworks */,
+				A45614192A0C51C800AFC6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persistencia;
+			productName = Persistencia;
+			productReference = A456141B2A0C51C800AFC6D6 /* Persistencia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45614132A0C51C800AFC6D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A456141A2A0C51C800AFC6D6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A45614162A0C51C800AFC6D6 /* Build configuration list for PBXProject "Persistencia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A45614122A0C51C800AFC6D6;
+			productRefGroup = A456141C2A0C51C800AFC6D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A456141A2A0C51C800AFC6D6 /* Persistencia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45614192A0C51C800AFC6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A456142C2A0C51CA00AFC6D6 /* Preview Assets.xcassets in Resources */,
+				A45614282A0C51CA00AFC6D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45614172A0C51C800AFC6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47175F02A0DAFF70073A4DD /* HideKeyBoard.swift in Sources */,
+				A47176282A16D6DA0073A4DD /* Group+CoreDataClass.swift in Sources */,
+				A47175FA2A0DB0D00073A4DD /* NewGroupView.swift in Sources */,
+				A47176482A28153D0073A4DD /* InputField.swift in Sources */,
+				A47176272A16D6DA0073A4DD /* Contact+CoreDataProperties.swift in Sources */,
+				A47175FC2A0DB0EC0073A4DD /* EditGroupView.swift in Sources */,
+				A47176012A0DB38E0073A4DD /* ContactListView.swift in Sources */,
+				A456141F2A0C51C800AFC6D6 /* PersistenciaApp.swift in Sources */,
+				A47175F82A0DB0B60073A4DD /* ContactsInGroupView.swift in Sources */,
+				A47176262A16D6DA0073A4DD /* Contact+CoreDataClass.swift in Sources */,
+				A47175FF2A0DB2F30073A4DD /* ContactInfoView.swift in Sources */,
+				A47176072A0DB5120073A4DD /* ContactViewModel.swift in Sources */,
+				A47176092A0DB5330073A4DD /* GroupViewModel.swift in Sources */,
+				A47176462A28130E0073A4DD /* ListView.swift in Sources */,
+				A47176292A16D6DA0073A4DD /* Group+CoreDataProperties.swift in Sources */,
+				A47175F62A0DB0870073A4DD /* GroupListView.swift in Sources */,
+				A45614212A0C51C800AFC6D6 /* Persistence.swift in Sources */,
+				A45614242A0C51C800AFC6D6 /* Persistencia.xcdatamodeld in Sources */,
+				A47176052A0DB4250073A4DD /* EditContactView.swift in Sources */,
+				A47176032A0DB4060073A4DD /* NewContactView.swift in Sources */,
+				A471764D2A299E830073A4DD /* ShowContactInfo.swift in Sources */,
+				A47175F32A0DB0580073A4DD /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A456142D2A0C51CA00AFC6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A456142E2A0C51CA00AFC6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A45614302A0C51CA00AFC6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Persistencia/Persistencia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Persistencia/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paulo.Persistencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A45614312A0C51CA00AFC6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Persistencia/Persistencia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Persistencia/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8XB2TQUP3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paulo.Persistencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45614162A0C51C800AFC6D6 /* Build configuration list for PBXProject "Persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A456142D2A0C51CA00AFC6D6 /* Debug */,
+				A456142E2A0C51CA00AFC6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A456142F2A0C51CA00AFC6D6 /* Build configuration list for PBXNativeTarget "Persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45614302A0C51CA00AFC6D6 /* Debug */,
+				A45614312A0C51CA00AFC6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A45614222A0C51C800AFC6D6 /* Persistencia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A45614232A0C51C800AFC6D6 /* Persistencia.xcdatamodel */,
+			);
+			currentVersion = A45614232A0C51C800AFC6D6 /* Persistencia.xcdatamodel */;
+			path = Persistencia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A45614132A0C51C800AFC6D6 /* Project object */;
+}
